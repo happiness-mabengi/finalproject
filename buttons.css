@@ -1,0 +1,26 @@
+button {
+  font-size: 16px;
+  padding: 5px 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+.body.dark-mode .recipes-section {
+    border-color: #333;
+}
+
+
+/* Only apply to a main inside a body 
+that has class dark-mode */
+
+/* main {
+  background-color:burlywood;
+  color: white;
+  padding: 0 0 0px;
+  margin: 0px 1px 1px 1px;
+} */

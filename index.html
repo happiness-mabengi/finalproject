@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Let's Eat!</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="buttons.css">
+    <script src="buttons.js" defer></script>
+</head>
+
+<body class="page-background">
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="appetizer.html">Appetizer</a></li>
+            <li><a href="entree.html">Entree</a></li>
+            <li><a href="dessert.html">Dessert</a></li>
+        </ul>
+    </nav>
+
+
+<header id="chore">
+    <h1>A taste of happiness!</h1>
+<div>
+    <p>Dinner should not feel like a chore - it's a moment to unwind, get creative, and have fun in the kitchen!</p>
+
+    <p>Whether you are just experimenting with new flavors or putting a fresh twist on your favorite meals,
+        cooking is <div></div> a chance to play, relax, and to enjoy the process. Let your dinner time be a space where you 
+        laugh, taste, try again, <div></div> and discover dishes that make you smile. After all, the best meals, aren't just
+        delicious - they bring a joy! <div></div> Hence, this is a digital cookbook that should be fun to make for yourself or your loved ones!</p>
+</div>
+</header>
+<main class="dark-mode">
+<section class="recipes-section">
+    <h2>Here you go!</h2>
+    <main class="dark-mode">
+    <p id="instructions">Click on this button to see an effect!</p>
+    <button onclick="toggleDark()">Press me to switch to dark mode!</button>
+    <p>
+        Here are some popular recipes that sounds so good to be true. 
+        And the best part is that they are easy to make!
+    </p>
+</section>
+</main>
+<h2 style="text-align: center;">Recipes</h2>
+<div class="recipe-grid">
+    <div class="picture">
+    <a href="./appetizer.html" class="recipe-card">Prosciutto, Pear & Burrata Salad</a>
+    <img src="./taste.jpg"
+    alt="Appetizer" class="taste-img">
+    </div>
+
+    <div class="picture">
+    <a href="./entree.html" class="recipe-card">Creamy Lemon Chicken Piccata</a>
+    <img src="./fork.jpg"
+    alt="entree" class="taste-img">
+    </div>
+
+    <div class="picture">
+    <a href="./dessert.html" class="recipe-card">Vanilla Panna Cotta with Mixed Berry Compote</a>
+    <img src="./vani.jpg"
+    alt="dessert" class="taste-img">
+    </div>
+</div>
+</section>
+
+
+<div>
+    <footer class="footer">
+        <h3>About Us</h3>
+        <p>Welcome to my little world of recipes! My goal is to bring cooking ideas that are fun, easy, and enjoyable.
+             Each recipe is designed to bring joy, creativity, and flavor into your kitchen!</p>
+    </footer>
+</div>
+
+<section>
+    <footer class="foot">
+    <form action="https://script.google.com/macros/s/AKfycbz6cewkwC6P68-qotOokhBb_v1Zxr3aozRItX-rFramd4p_7R3XzwHLj7o1mN-6Okez/exec"
+    method="post">
+        <div>
+        <label for="review">Did you try making this meal?</label>
+        <input id="review" name="review" type="radio" value="RS"><label>Yes</label>
+        <input id="review" name="review" type="radio" value="RA"><label>No</label>
+        </div>
+
+        <div>
+        <label for="honest">What were your honest opinions when trying these meals?</label>
+        <input id="honest" name="opinions" type="text" required>
+        </div>
+        <button type="submit">Send information</button>
+</form>
+    </footer>
+</section>
+</body>
+</html>

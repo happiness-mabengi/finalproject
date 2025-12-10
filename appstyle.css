@@ -1,0 +1,127 @@
+body {
+    background: linear-gradient(to bottom, #4b3a2f, #2a221c);
+    color: #f3e8dc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px 20px 10px;
+}
+    /* padding-left: 1px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 125px;
+    margin-right: -40;
+    align-items: start; */
+
+
+.navbar {
+    /* text-align: center; */
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: #f3e8dc;
+    /* margin-left: 450px;
+    margin-right: -40; */
+    /* margin: -30px -10px 30px -20px; */
+    position: absolute;
+    top: 20px;
+    display: flex;
+    gap: 20px;
+    border-radius: 6px;
+    right: 40px;
+}
+
+.navbar a {
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bold;
+    /* margin: 0 20px; */
+}
+
+.recipe-time {
+    width: 70%;
+    margin: 80px auto;
+    padding: 70px;
+    padding-left: 40px;
+    background: #2a221c;
+    border-radius: 14px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.45);
+    text-align: center;
+}
+
+.recipe-time h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.recipes-section {
+    margin: top 30px;
+}
+
+.recipes-section h2 {
+    color: wheat;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.recipes-section ol,
+.recipes-section p {
+    margin-left: 20px;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.pro-video {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pro-video iframe {
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+}
+
+.pro-img {
+    width:300px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.recipe-layout {
+    /* width: 80%; */
+    /* margin: 40px auto; */
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* PHONE Size */
+@media (max-width: 768px) {
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+}
